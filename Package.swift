@@ -11,8 +11,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
-        .package(url: "https://github.com/onesdkspm/BTQRCode.git", from: "2.0.2"),
+        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.3"),
+        .package(url: "https://github.com/onesdkspm/BTQRCode.git", from: "2.0.3"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityQRCodeScanner",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQRCodeScanner/2.0.2/UnityQRCodeScanner.xcframework.zip",
-            checksum: "e532b13930c36765c907a5a321f2dd9d40dbdcbd378c1c98194e3fa0aa224928"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQRCodeScanner/2.0.3/UnityQRCodeScanner.xcframework.zip",
+            checksum: "cf0f90125c35147ae7079069e204c0e01a64a422ea154806bffbed5c3ca2a839"
         )
     ]
 )
