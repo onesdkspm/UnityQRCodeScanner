@@ -36,8 +36,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "UnityQRCodeScanner",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQRCodeScanner/2.0.3-dev-1481408/UnityQRCodeScanner.xcframework.zip",
-            checksum: "5973680ac326c0cb1257bc9162e9ea8fb45f1e8070d7826b73123d7f339e7e82"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/UnityQRCodeScanner/2.0.3-dev-1482672/UnityQRCodeScanner.xcframework.zip",
+            checksum: "b553ab050a2e0d56fab56e93210e15172fa78e69e965cd53ef3547fd644e1127"
         )
     ]
 )
